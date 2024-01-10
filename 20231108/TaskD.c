@@ -13,6 +13,6 @@ int main() {
             printf("%d\n", i);
         }
     }
-    printf("Loop end\n");
+    
     return 0;
 }
