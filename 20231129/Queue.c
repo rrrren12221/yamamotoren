@@ -68,8 +68,6 @@ int main() {
     enqueue(&queue, 'A');
     enqueue(&queue, 'B');
     enqueue(&queue, 'C');
-   // dequeue(&queue);
-   // dequeue(&queue);
     enqueue(&queue, 'D');
     enqueue(&queue, 'E');
     enqueue(&queue, 'F');
