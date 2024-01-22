@@ -2,9 +2,11 @@
 
 int main()
 {
-    for(int i=1 ; i<=10 ; i++)
-    {}
+    int i;
+
+    for(i=0;i<=10;i++)
+    {
         
-    
+    }
     return 0;
 }

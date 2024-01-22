@@ -2,14 +2,14 @@
 
 int main()
 {
-    int i=0;
-    while(i<10)
-    {
-        i++;
+    int i;
+
+    for(i=0;i<=10;i++)
+    { 
+        printf("%d\n", i);
     }
+
+    i=i+1;
+
     return 0;
 }
-
- 
-
-    

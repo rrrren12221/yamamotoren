@@ -1,17 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <stdlib.h> 
+#include <time.h>   
 
-int main() {
-    int i;
-    int arr[10];
+int main(void) {
+
     srand(time(NULL));
-    for (i = 0; i < 10; i++) {
-        arr[i] = rand();
+
+    int data[10];
+
+    for (int i = 0; i <= 10; i++) {
+        data[i] = rand() % 100; 
     }
-    for (i = 0; i < 10; i++) {
-        printf("arr[%d] = %d\n", i, arr[i]);
+
+
+    for (int i = 0; i < sizeof(data) / sizeof(data[0]); i++) {
+        printf("data[%d]=%d\n", i, data[i]);
     }
-    
+
     return 0;
 }
